@@ -16,18 +16,26 @@ Aurebesh AF Canon with Aurebesh Red
 # How to use it?
 
 ## BetterDiscord
-Download the CSS file in the [releases](https://github.com/LogicismDev/aurebesh-discord-font/releases/latest) and add it to your theme folder. Instructions on how to do so can be found [here](https://smolalli.github.io/BetterDiscord/v-addons/).
+Download the CSS file in the [releases](https://github.com/LogicismDev/aurebesh-discord-font/releases/latest) and add it to your theme folder. You may choose the Aurebesh Code version or the Aurebesh Red version. Instructions on how to do so can be found [here](https://smolalli.github.io/BetterDiscord/v-addons/).
 
 ## Vencord
 In the themes tab, insert the link below in theme links.
 
     https://cdn.jsdelivr.net/gh/LogicismDev/aurebesh-discord-font/source.min.css
 
+Aurebesh Red Version
+
+    https://cdn.jsdelivr.net/gh/LogicismDev/aurebesh-discord-font/source-red.min.css
+
+
 ## Custom CSS
 If you are using a custom client that has support for Custom CSS, you may use the code below.
 
     @import url(https://cdn.jsdelivr.net/gh/LogicismDev/aurebesh-discord-font/source.min.css);
 
+Aurebesh Red Version
+
+    @import url(https://cdn.jsdelivr.net/gh/LogicismDev/aurebesh-discord-font/source-red.min.css);
 
 ## Web Browser
 If you want to use this on the web browser, you may use it through the browser extension Stylus which you can get on the [Chrome Web Store](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne) or the [Firefox Addons](https://addons.mozilla.org/en-US/firefox/addon/styl-us/). 
@@ -35,3 +43,7 @@ If you want to use this on the web browser, you may use it through the browser e
 Click on Write New Style and add the code below.
 
     @-moz-document url-prefix("https://discord.com/channels/") { @import url(https://cdn.jsdelivr.net/gh/Overimagine1/old-discord-font/source.min.css); }
+
+Aurebesh Red Version
+
+    @-moz-document url-prefix("https://discord.com/channels/") { @import url(https://cdn.jsdelivr.net/gh/Overimagine1/old-discord-font/source-red.min.css); }
