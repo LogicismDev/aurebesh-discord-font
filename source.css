@@ -1,0 +1,25 @@
+@font-face {
+	font-family: Aurebesh AF;
+	font-style: normal;
+	font-weight: 700;
+	src: url(https://cdn.jsdelivr.net/gh/LogicismDev/aurebesh-discord-font/fonts/AurebeshAF-Canon.woff2) format("woff2");
+}
+@font-face {
+	font-family: Aurebesh Code;
+	font-style: normal;
+	font-weight: 400;
+	src: url(https://cdn.jsdelivr.net/gh/LogicismDev/aurebesh-discord-font/fonts/AurebeshCode.woff2) format("woff2");
+}
+@font-face {
+	font-family: Aurebesh Red;
+	font-style: normal;
+	font-weight: 400;
+	src: url(https://cdn.jsdelivr.net/gh/LogicismDev/aurebesh-discord-font/fonts/AurebeshRed-Regular.woff2) format("woff2");
+}
+
+:root {
+	--font-primary: "Aurebesh AF", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	--font-display: "Aurebesh AF", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	--font-headline: "Aurebesh AF", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	--font-code: "Aurebesh Code", Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace;
+}
